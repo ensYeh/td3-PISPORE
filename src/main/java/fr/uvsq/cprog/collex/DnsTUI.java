@@ -23,6 +23,10 @@ public class DnsTUI {
         if (ligne.isEmpty()) {
             return new CommandeInvalide("Commande vide !");
         }
+        //verification commande spéciale "quit"
+        if (ligne.equalsIgnoreCase("quit")){
+            return new CommandeQuitter();
+        }
 
         String[] tokens = ligne.split("\\s+");
 

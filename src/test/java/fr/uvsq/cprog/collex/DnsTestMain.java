@@ -7,7 +7,7 @@ public class DnsTestMain {
     public static void main(String[] args) {
         try {
             // Remplacez par le chemin réel de votre fichier de base
-            String fichier = "src/main/fr/uvsq/cprog/collex/fichier_dns.txt";
+            String fichier = "src/main/java/fr/uvsq/cprog/collex/fichier_dns.txt";
             Dns dns = new Dns(fichier);
 
             // Test getItem par nom

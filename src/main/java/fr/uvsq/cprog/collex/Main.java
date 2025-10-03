@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Chemin de votre fichier de base DNS
-            String fichier = "src/main/resources/fichier_dns.txt";
+            String fichier = "src/main/java/fr/uvsq/cprog/collex/fichier_dns.txt";
             Dns dns = new Dns(fichier);
             DnsTUI tui = new DnsTUI();
 
